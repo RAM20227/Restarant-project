@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+    <div class="styles">
+        <form method="POST" action="/details">
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id=""><br><br>
+            <label for="Phone Number">Phone Number:</label>
+            <input type="Number" name="PhoneNumber" id=""><br><br>
+            <label for="E-mail Id ">E-mail Id:</label>
+            <input type="text" name="E-mailId" id=""><br><br>
+            <label for="Door No.">Door No.:</label>
+            <input type="text" name="DoorNo." id=""><br><br>
+            <label for="Village">Village:</label>
+            <input type="text" name="Village" id=""><br><br>
+
+            <label for="District" class="ram">District:</label>
+            <select name="District" id="District" class="input">
+                <option value="West godavari district">West godavari district</option>
+                <option value="East godavari district">East godavari district</option>
+                <option value="Ananthapuram district">Ananthapuram district</option>
+                <option value="kurnool district">kurnool district</option>
+                <option value="Eluru district">Eluru district</option>
+                <option value="Guntur district">Guntur district</option>
+            </select><br><br>
+            <label for="Pin Code">Pin Code:</label>
+            <input type="Number" name="PinCode" id=""><br><br>
+            <label for="PAYMENTS" >PAYMENTS:</label>
+            <select name="PAYMENTS">
+                <option value="Net banking">Net banking</option>
+                <option value="Cash on delivery">Cash on delivery</option>
+                <option value="credit card">credit card</i></option>
+                <option value="UPI pyment">UPI payment</option>
+                <option value="wallet">wallet</option>
+            </select>
+            <button type="submit" class="style">SUBMIT </button>
+        </form>
+    </div>
+</body>
+
+</html>

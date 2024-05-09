@@ -1,0 +1,53 @@
+body{
+    margin: 20px;
+    padding: 20px;
+    background-color: #1d2b3a;;
+    font-size:x-large;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family:'Poppins' sans-serif;
+}
+.styles form{
+    width: 100%;
+    position: 10px;
+    
+}
+.styles form input{
+   width: 100%;
+   padding: 10px;
+   border: 1px solid rgba(255,255, 255, 0.25);
+   background: #1d2b3a;
+   border-radius: 5px;
+   outline: none;    
+   color: #fff;
+   font-size: 1em;
+}
+.styles form label{
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+    font-size:1em ;
+    color:rgba(255,255, 255, 0.25) ;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.ram{
+    padding: 10px;
+    border: 1px solid rgba(255,255, 255, 0.25);
+    background: #1d2b3a;
+    border-radius: 5px;
+    outline: none;    
+    color: #fff;
+    font-size: 1em;
+}
+.styles form label:valid lable
+.styles form label:focus lable
+{
+    color: aqua;
+    transform: translateX(10px) translateY(-7px);
+    padding: 0 10px;
+   
+}
